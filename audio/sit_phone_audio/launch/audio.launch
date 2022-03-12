@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="speak" pkg="sit_phone_audio" type="speak_node.py"  output="screen" respawn="true" respawn_delay="0">
+        <param name="mqtt_address" value="10.1.160.240"/>
+        <param name="mqtt_port" value="1883"/>
+    </node>
+
+    <node name="hear" pkg="sit_phone_audio" type="hear_node.py"  output="screen" respawn="true" respawn_delay="0">
+        <param name="mqtt_address" value="10.1.160.240"/>
+        <param name="mqtt_port" value="1883"/>
+    </node>
+</launch>

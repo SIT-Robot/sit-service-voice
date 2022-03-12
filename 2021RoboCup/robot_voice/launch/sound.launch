@@ -1,0 +1,13 @@
+<launch>
+
+    <!-- <include file="$(find sound_play)/soundplay_node.launch"></include> -->
+
+    <node name="recognizer" pkg="robot_voice" type="recognizer.py" output="screen" />
+    <node name="Sound" pkg="robot_voice" type="Sound.py" output="screen" />
+    <node name="conversation" pkg="robot_voice" type="Conversation.py" output="screen" />
+    <node name="Speaker" pkg="robot_voice" type="Speaker.py" output="screen" />
+    <node name="Angle" pkg="robot_voice" type="Angle.py" output="screen" />
+    <node name="file" pkg="robot_voice" type="file.py" output="screen" />
+     
+
+</launch>

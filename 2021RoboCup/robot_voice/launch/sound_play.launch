@@ -1,0 +1,5 @@
+<launch>
+    <node name="recognizer" pkg="robot_voice" type="recognizer.py" output="screen" />
+    <node name="Speaker" pkg="robot_voice" type="Speaker.py" output="screen" />
+    <node name="Angle" pkg="robot_voice" type="Angle.py" output="screen" />
+ </launch>

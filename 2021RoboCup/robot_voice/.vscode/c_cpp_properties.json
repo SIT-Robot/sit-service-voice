@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/sit/code/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/sit/code/catkin_ws/src/chassis_odom/include/**",
+        "/home/sit/code/catkin_ws/src/driver_base/include/**",
+        "/home/sit/code/catkin_ws/src/hokuyo_node/include/**",
+        "/home/sit/code/catkin_ws/src/msg_test/include/**",
+        "/home/sit/code/catkin_ws/src/robot_voice/include/**",
+        "/home/sit/code/catkin_ws/src/serial/include/**",
+        "/home/sit/code/catkin_ws/src/sit_service_chassis/include/**",
+        "/home/sit/code/catkin_ws/src/timestamp_tools/include/**",
+        "/home/sit/code/catkin_ws/src/wit_imu_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

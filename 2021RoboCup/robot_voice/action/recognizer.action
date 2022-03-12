@@ -1,0 +1,8 @@
+#录音时间
+int32 seconds
+---
+#最终结果
+string voice_txt
+---
+#现在所录音时间
+int32 n_seconds
